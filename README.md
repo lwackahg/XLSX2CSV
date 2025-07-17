@@ -58,8 +58,15 @@ This is a crucial step! Regular `.xlsx` files cannot store macros.
 Now for the easy part.
 
 1.  Press the keyboard shortcut **Alt + F8**. This opens the Macro dialog box.
-2.  You will see `SaveAllSheetsAsCSV` in the list.
-3.  Click on it and then click the **Run** button.
+2.  Click on `SaveAllSheetsAsCSV` in the list to select it.
+3.  **Important:** If you don't see the macro, check the **"Macros in:"** dropdown at the bottom. It should be set to **"This Workbook"**.
+
+	*   **Why?** This dropdown filters which macros you see. Here's what the options mean:
+		*   `This Workbook`: Shows only macros saved in the current file. **(Choose this one!)**
+		*   `All Open Workbooks`: Shows macros from every Excel file you have open.
+		*   `Personal.xlsm`: Shows macros from your personal, global macro file (if you have one).
+
+4.  Click the **Run** button.
 
 <img width="581" height="865" alt="image" src="https://github.com/user-attachments/assets/97290c15-47b3-4799-8cbc-2653f4c92bcb" />
 
