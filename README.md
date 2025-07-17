@@ -21,6 +21,8 @@ Follow these simple steps to add this macro to your Excel workbook.
 ### Step 1: Open the VBA Editor
 In your open Excel file, press the keyboard shortcut **Alt + F11**. This will open the Visual Basic for Applications (VBA) editor window. It's a separate window from your spreadsheet.
 
+<img width="2882" height="1566" alt="image" src="https://github.com/user-attachments/assets/fa3454b0-6917-4e20-b9a1-5054ea9a78c2" />
+
 ### Step 2: Insert a New Module
 A macro needs a place to live. We'll put it in a new "Module."
 
@@ -29,10 +31,16 @@ A macro needs a place to live. We'll put it in a new "Module."
 
 A new blank white code window will appear on the right.
 
+<img width="2875" height="1566" alt="image" src="https://github.com/user-attachments/assets/6f62d752-94e5-4fb1-bfbe-2780afa9955e" />
+
 ### Step 3: Copy and Paste the Code
 1.  Click here to view the code file: [`SaveAllSheetsAsCSV.bas`](./SaveAllSheetsAsCSV.bas)
 2.  On the page that opens, click the "Copy raw contents" button (it looks like two overlapping squares) in the top-right corner of the code box.
 3.  Return to your Excel VBA editor and paste the copied code into the blank module window.
+
+<img width="2532" height="1260" alt="image" src="https://github.com/user-attachments/assets/3edc273e-c9ba-4c19-92ab-1f07e768ff2c" />
+
+<img width="2879" height="1569" alt="image" src="https://github.com/user-attachments/assets/6f604db4-3483-4cdf-bf82-2b0740b8bba6" />
 
 ### Step 4: Save Your Workbook as Macro-Enabled
 This is a crucial step! Regular `.xlsx` files cannot store macros.
@@ -41,6 +49,11 @@ This is a crucial step! Regular `.xlsx` files cannot store macros.
 2.  In the "Save as type" dropdown menu, choose **Excel Macro-Enabled Workbook (*.xlsm)**.
 3.  Save the file.
 
+<img width="2895" height="1845" alt="image" src="https://github.com/user-attachments/assets/a7df1562-1859-4879-aecb-e35af0741bb4" />
+
+<img width="2043" height="1176" alt="image" src="https://github.com/user-attachments/assets/3dc8b7f5-64d7-434e-a2e0-bbe86ab637ad" />
+
+
 ### Step 5: Run the Macro!
 Now for the easy part.
 
@@ -48,7 +61,12 @@ Now for the easy part.
 2.  You will see `SaveAllSheetsAsCSV` in the list.
 3.  Click on it and then click the **Run** button.
 
+<img width="581" height="865" alt="image" src="https://github.com/user-attachments/assets/97290c15-47b3-4799-8cbc-2653f4c92bcb" />
+
+
 That's it! A message box will appear when the process is complete, and you'll find all your new CSV files waiting for you in the same folder as your Excel file.
+
+<img width="633" height="525" alt="image" src="https://github.com/user-attachments/assets/19d4867e-b8af-4b35-879f-143c17340c38" />
 
 ## License
 This project is licensed under the MIT License. Feel free to use and modify it as you wish.
